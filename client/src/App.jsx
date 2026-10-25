@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/books";
+const API_URL = "https://booknest-api-xr87.onrender.com/api/books";
 
 function getBookEmoji(book) {
   const text = `${book.title || ""} ${book.category || ""}`.toLowerCase();
